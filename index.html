@@ -1,0 +1,71 @@
+
+<!DOCTYP html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para minha Mãe ❤️</title>
+
+    <link rel="stylesheet" href="mae.css">
+</head>
+
+<body>
+    <main class="container">
+
+        <p class="subtitle" id="subtitle">
+            Fiz algo especial para você...
+        </p>
+
+        <button
+            class="heart-button"
+            id="heartButton"
+            aria-label="Clique para abrir sua surpresa"
+        >
+            <svg
+                class="heart-svg"
+                viewBox="0 0 300 280"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+            >
+                <defs>
+                    <clipPath id="heartClip">
+                        <path d="M150 260
+                            C125 235 15 160 15 88
+                            C15 18 100 0 150 65
+                            C200 0 285 18 285 88
+                            C285 160 175 235 150 260 Z"/>
+                    </clipPath>
+                </defs>
+
+                <g clip-path="url(#heartClip)" id="wordHeart"></g>
+            </svg>
+
+            <span class="click-hint" id="clickHint">
+                Toque no coração ❤️
+            </span>
+        </button>
+
+        <section class="message" id="message" aria-hidden="true">
+            <p class="love-quote">
+                Obrigado por sempre me ajudar nos momentos bons e nos ruins também,
+                a senhora é uma pessoa muito especial na minha vida, me cuidou, me educou,
+                me protegeu o mais importante, me deu a vida. A senhora foi uma pessoa que me deu broncas
+                e até bateu, mas também foi a pessoa que, juntamente com o pai, mais me amou, me acolheu,
+                me ajudou e me protegeu. Sem contar contar as artes que eu fazia que a senhora brigava
+                comigo e depois me ajudava a sair do problema. Eu sou muito agradecido por ter você comigo.
+                Além disso foi professora, minha professora.
+            </p>
+
+            <p class="signature">Feliz aniversário mãe. Te amo ♡</p>
+        </section>
+
+        <p class="footer" id="footer">
+            Feito com amor, especialmente para você.
+        </p>
+
+    </main>
+
+    <script src="mae.js"></script>
+</body>
+</html>
